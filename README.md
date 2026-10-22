@@ -3,6 +3,8 @@
 Plugin CounterStrikeSharp pentru mesaje private afisate intr-un card Panorama.
 Cardul intra cu slide din stanga, ramane pana la inchidere si iese spre dreapta.
 
+<img width="831" height="480" alt="image" src="https://github.com/user-attachments/assets/03aac5d4-256e-4a75-9dfa-738c9ca24313" />
+
 ## Versiuni
 
 - CounterStrikeSharp API: `1.0.376`
