@@ -1,0 +1,14 @@
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.csproj.AssemblyReference.cache
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.AssemblyInfoInputs.cache
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.AssemblyInfo.cs
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.csproj.CoreCompileInputs.cache
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\build\plugins\PsayHud\net10.0\PsayHud.deps.json
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\build\plugins\PsayHud\net10.0\PsayHud.dll
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\build\plugins\PsayHud\net10.0\PsayHud.pdb
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\build\plugins\PsayHud\net10.0\PanoramaManager.dll
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.csproj.Up2Date
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.dll
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\refint\PsayHud.dll
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\PsayHud.pdb
+C:\Users\MihaiGsm2003\Desktop\CS2\github\Message\obj\Release\net10.0\ref\PsayHud.dll

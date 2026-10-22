@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>14</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>PsayHud</AssemblyName>
+    <RootNamespace>PsayHud</RootNamespace>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <OutputPath>$(MSBuildThisFileDirectory)build\plugins\PsayHud\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.376" ExcludeAssets="runtime" />
+    <PackageReference Include="PanoramaManager" Version="0.4.4" />
+  </ItemGroup>
+
+  <Target Name="CopyPanoramaManager" AfterTargets="ResolveLockFileCopyLocalFiles">
+    <ItemGroup>
+      <ReferenceCopyLocalPaths Include="@(RuntimeCopyLocalItems)"
+                               Condition="'%(RuntimeCopyLocalItems.NuGetPackageId)' == 'PanoramaManager'" />
+    </ItemGroup>
+  </Target>
+</Project>

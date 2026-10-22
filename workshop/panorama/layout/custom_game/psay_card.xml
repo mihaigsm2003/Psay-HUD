@@ -1,0 +1,24 @@
+<root>
+  <styles>
+    <include src="s2r://panorama/styles/custom_game/psay_card.vcss_c" />
+  </styles>
+
+  <Panel class="psay-viewport" hittest="false">
+    <Panel id="PsayRoot" class="psay-root" hittest="true">
+      <Panel id="PsayCard" class="psay-card">
+        <Panel class="psay-accent" hittest="false" />
+
+        <Panel class="psay-header" hittest="false">
+          <Label class="psay-eyebrow" text="{s:psay_header}" />
+          <Button id="psay_close" class="psay-close">
+            <Label class="psay-close-text" text="X" />
+          </Button>
+        </Panel>
+
+        <Panel class="psay-divider" hittest="false" />
+        <Label class="psay-message" text="{s:psay_message}" />
+        <Label class="psay-hint" text="Apasa X pentru a inchide" hittest="false" />
+      </Panel>
+    </Panel>
+  </Panel>
+</root>

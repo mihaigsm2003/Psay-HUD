@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PsayHud/1.0.0": {
+        "dependencies": {
+          "PanoramaManager": "0.4.4"
+        },
+        "runtime": {
+          "PsayHud.dll": {}
+        }
+      },
+      "PanoramaManager/0.4.4": {
+        "runtime": {
+          "lib/net10.0/PanoramaManager.dll": {
+            "assemblyVersion": "0.4.4.0",
+            "fileVersion": "0.4.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PsayHud/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PanoramaManager/0.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ec4jwN7OCvQrmMFiGsdgIppCZNrFom53eycmod+UM40PkimN2nFjoTp4iSBSTThMu2t6rBELCPf25izi3lL10Q==",
+      "path": "panoramamanager/0.4.4",
+      "hashPath": "panoramamanager.0.4.4.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.psay-viewport {
+    width: 100%;
+    height: 100%;
+}
+
+.psay-root {
+    width: 100%;
+    height: 100%;
+    flow-children: down;
+    horizontal-align: center;
+    vertical-align: center;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.12s;
+    transition-timing-function: ease-out;
+}
+
+.psay-root.shown {
+    opacity: 1;
+}
+
+.psay-card {
+    width: 760px;
+    min-height: 250px;
+    padding: 30px 34px 24px 34px;
+    flow-children: down;
+    horizontal-align: center;
+    vertical-align: center;
+    background-color: #101923e8;
+    border: 2px solid #35d7ffff;
+    border-radius: 8px;
+    box-shadow: #000000cc 0px 5px 28px 0px;
+    transform: translateX(-2600px);
+    transition-property: transform;
+    transition-duration: 0.55s;
+    transition-timing-function: ease-out;
+}
+
+.psay-card.entered {
+    transform: translateX(0px);
+}
+
+.psay-card.leaving-right {
+    transform: translateX(2600px);
+}
+
+.psay-accent {
+    width: 100%;
+    height: 4px;
+    margin-bottom: 20px;
+    background-color: #35d7ffff;
+}
+
+.psay-header {
+    width: 100%;
+    flow-children: right;
+    vertical-align: center;
+}
+
+.psay-eyebrow {
+    width: fill-parent-flow(1.0);
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #50dcffff;
+    vertical-align: center;
+}
+
+.psay-close {
+    width: 38px;
+    height: 38px;
+    horizontal-align: right;
+    vertical-align: center;
+    background-color: #ffffff18;
+    border-radius: 4px;
+}
+
+.psay-close:hover {
+    background-color: #35d7ff55;
+}
+
+.psay-close-text {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffffff;
+    text-align: center;
+    vertical-align: center;
+}
+
+.psay-divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 16px;
+    background-color: #ffffff30;
+}
+
+.psay-message {
+    width: 100%;
+    margin-top: 24px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f4f8ffff;
+    text-align: center;
+    horizontal-align: center;
+    vertical-align: center;
+}
+
+.psay-hint {
+    width: 100%;
+    margin-top: 22px;
+    font-size: 13px;
+    color: #c5d0dcff;
+    text-align: center;
+    horizontal-align: center;
+}
